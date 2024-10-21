@@ -1,4 +1,4 @@
-class Tarta:
+class Tarta1:
     def __init__(self,sabor_tarta):
         print ("constructor con", sabor_tarta)
         self.sabor = sabor_tarta
@@ -23,9 +23,14 @@ tarta_nueces.puntuacion = 7
 tarta_coco.puntuacion= 10
 tarta_zanahoria = 0
 tarta_yogur = 8
-
-tarta_ganadora = mayor_puntuacion(lista_tartas) 
+tarta_ganadora = mayor.puntuacion(lista_tartas)
+    
 print(tarta_ganadora)
+
+
+class Tarta:
+    # si yo ejecuto t=Tarta(), me dice que t es un objeto (que pertenece a la clase Tarta), incluso sin constructor. Se crea sin datos ni nada hasta que le ponemos el constructor
+    
 
 
 
